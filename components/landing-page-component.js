@@ -2,17 +2,33 @@ export default {
   name: 'landing-page-component',
   template: /* html */ `
     <div class="container py-4">
-      <h1 class="mb-3">Welcome!</h1>
-      <p class="lead">This is a web app template in need of customization and improved interaction design.</p>
-      <router-link to="/items" class="btn btn-primary mb-4"><i class="bi bi-list-check me-1"></i>View the Example Collection</router-link>
+      <section class="intro-panel mb-4 p-4 rounded-4">
+        <h2 class="h4 mt-0">For fans who want to go deeper</h2>
+        <p>
+          This app helps people like Addy discover bands near them and explore many musical genres. Each band entry includes genre, location, and a short story so you can learn more before you go see them live.
+        </p>
+        <p>
+          Start on the collection page to find bands by sound and place, then open a band card to read more details. The app is simple, dark, and concert-style to keep the music vibe clear.
+        </p>
+      </section>
 
-      <h2 class="h4 mt-3">Template App Description</h2>
-      <p>
-        This is a simple Vue.js starter template that demonstrates how to build a small web app with a landing page, a collection page, and an item detail page. It uses Vue's Composition API for state management and Vue Router for navigation. The app loads a dataset from a CSV file and allows users to bookmark items for easy access later.
-      </p>
-      <p>
-        Your goal is to customize the app by adapting it to a different dataset, improving the user interface and interaction design, and adding new features that enhance the user experience. You can use any public dataset that interests you, such as movies, books, recipes, or anything else you find compelling. The app is intentionally simple to give you a lot of freedom in how you choose to enhance it.
-      </p>
+      <section class="hero-section mb-4 p-4 rounded-4">
+        <div class="hero-badge mb-3">Discover your next favorite band</div>
+        <h1 class="display-5 mb-3">Discover Local Bands</h1>
+        <p class="lead text-light mb-4">Find new local bands, learn about their music, and support the scene close to home.</p>
+        <router-link to="/items?location=indiana" class="btn btn-primary btn-lg">
+          <i class="bi bi-card-list me-1"></i>Browse local bands
+        </router-link>
+      </section>
+
+      <section class="global-section mb-4 p-4 rounded-4">
+        <div class="hero-badge mb-3">Explore worldwide artists</div>
+        <h2 class="display-6 mb-2">Discover Global Bands</h2>
+        <p class="text-muted mb-3">Find bands from around the world — listen across genres and borders.</p>
+        <router-link to="/items?view=global" class="btn btn-outline-primary btn-lg">
+          <i class="bi bi-globe me-1"></i>Browse global bands
+        </router-link>
+      </section>
     </div>
   `,
 };

@@ -1,12 +1,12 @@
-# Specification: [Your App Idea Name]
+# Specification: [Local Band Suupport]
 
-App description: [Write a one or two sentences describing what your app does and who it’s for.]
+App description: [My app is made for promoting bands to their local scene and helping them.]
 
 ## Style and Theme
 
-[Describe the look and feel of your app.] 
+[My app should be visually dark, but flashy to give a concert-like feel with many options to dig deep into information about a band, but also kept broad enough so its easy to look at and understand.] 
 
-Overall mood:
+Overall mood: [interactive, creative, and fun, while also having a strict structure.]
 Examples: fun and playful, calm and professional, bold and energetic, etc.
 
 Use the *style-guide.html* for details on styling -- fonts, colors, and layout.
@@ -15,13 +15,13 @@ Use the *style-guide.html* for details on styling -- fonts, colors, and layout.
 
 ### Story 1 (most important)
 
-[Write 1-2 sentences. Who is using the app, what do they want to do, and what do they see when it works? Write it like you are describing it to a friend.]
+[Addy, someone wanting to get deeper into music and its different genres, wants to discover and support new bands that are local to her but isnt sure where to look. It is important to her that she has access to all sorts of genres and information about the bands as well. ]
 
 ---
 
 ## Requirements
 
-Write clear statements about what the app must do.
+Write clear statements about what the app must do.: [provide insight on bands (their genres, upcoming concerts, story on their origin, link to streaming services, and a picture of the band members.)]
 
 ### Functional Requirements
 
